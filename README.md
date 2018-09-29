@@ -1,4 +1,4 @@
-# Real Time Multi Digit Number Real Time Multi Digit 
+# Real Time Multi Digit Number using SVHN
 This project has a deep convolute neural network (**CNN**) predicting the multi digit number in the images from the real world. I used keras framework using tensroflow-gpu as backend.
 
 
