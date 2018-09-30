@@ -10,7 +10,7 @@ These dataset is taken from the google street view. So the images of house numbe
 + Each digit is divided into ten classes from 1 to 10, where the 1 to 9 represent the digits and 10 represent zero
 + original dataset consists of two type, one with the original image and bounding box for each digit, another is the 32x32 image with the full number as the output.
 
-The link to the original dataset is [here]("http://ufldl.stanford.edu/housenumbers/")
+The link to the original dataset is [here](http://ufldl.stanford.edu/housenumbers/)
 ##### Preprocessing
 I have worked on the orignal image with the bounding box. The data is preprocessed in the **` preprocessing.ipyn `** file. where
 + The images are cropped into smaller size and resized into 32 x 32 grayscale image.
@@ -54,6 +54,6 @@ This classifer can detect the full number correctly with the accuracy of 88.05%
 4. h5py
 
 ### Reference
-+ [Street View House Numbers (SVHN) Dataset]("http://ufldl.stanford.edu/housenumbers/")
-+ [svhn-multi-digit by thomalm]("https://github.com/thomalm/svhn-multi-digit")
-+ [Keras custom loss layer]("https://github.com/keras-team/keras/issues/369")
++ [Street_View_House_Numbers_(SVHN)_Dataset](http://ufldl.stanford.edu/housenumbers/)
++ [svhn-multi-digit_by_thomalm](https://github.com/thomalm/svhn-multi-digit)
++ [Keras_custom_loss_layer](https://github.com/keras-team/keras/issues/4781)
